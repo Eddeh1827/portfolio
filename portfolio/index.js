@@ -1,6 +1,6 @@
-//template_incbkvv
-//service_17qssna
-//user_XKCZCKuPZZ7Jj4szGx0Xm
+//template_3t93cn2
+//service_4u9bzas
+//user_cPat81QRNlamTzXjQXhZO
 
 let isModalOpen = false;
 let contrastToggle = false;
@@ -36,10 +36,10 @@ function contact(event) {
   loading.classList += " modal__overlay--visible";
   emailjs
     .sendForm(
-      "service_17qssna",
-      "template_incbkvv",
+      "service_4u9bzas",
+      "template_3t93cn2",
       event.target,
-      "user_XKCZCKuPZZ7Jj4szGx0Xm"
+      "user_cPat81QRNlamTzXjQXhZO"
     )
     .then(() => {
       loading.classList.remove("modal__overlay--visible");
@@ -48,7 +48,7 @@ function contact(event) {
     .catch(() => {
       loading.classList.remove("modal__overlay--visible");
       alert(
-        "The email service is temporarily unavailable. Please contact me directly on holmes.juan13@gmail.com"
+        "The email service is temporarily unavailable. Please contact me directly at bickhame@gmail.com"
       );
     });
 }
