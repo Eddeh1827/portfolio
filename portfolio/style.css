@@ -156,8 +156,8 @@ nav,
 .dark-theme section {
   background-color: #242424;
 }
-.dark-theme #personal-logo {
-  filter: none;
+.dark-theme #personal-title {
+  color: white;
 }
 .dark-theme .scroll__icon {
   border-color: white;
@@ -280,13 +280,6 @@ nav {
   margin: 0 auto;
   padding: 0 20px;
   height: 100px;
-}
-
-#personal-logo {
-  width: 100px;
-  height: 100px;
-  filter: invert(1);
-  margin-left: -250px;
 }
 
 .nav__link--list {
@@ -694,11 +687,7 @@ footer {
   .title {
     font-size: 80px;
   }
-  #personal-logo {
-    width: 100px;
-    height: 100px;
-    filter: invert(1);
-  }
+
   .header__para {
     font-size: 20px;
   }
@@ -720,11 +709,6 @@ footer {
 @media (max-width: 480px) {
   .title {
     font-size: 52px;
-  }
-  #personal-logo {
-    width: 100px;
-    height: 100px;
-    filter: invert(1);
   }
   .header__para {
     font-size: 18px;
